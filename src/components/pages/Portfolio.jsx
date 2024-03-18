@@ -1,4 +1,5 @@
 import ProjectCard from "../Project";
+import ProjectOnePic from "../../assets/project1Pup.jpg"
 
 export default function Portfolio() {
   const projects = [
@@ -8,7 +9,7 @@ export default function Portfolio() {
       description: "",
       gitHub: "",
       websiteLink: "",
-      image: "",
+      image: ProjectOnePic,
     },
     {
       id: 2,

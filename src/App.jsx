@@ -6,6 +6,7 @@ import Portfolio from './components/pages/Portfolio'
 import Contact from './components/pages/Contact'
 import Resume from './components/pages/Resume'
 import Home from './components/pages/Home'
+import Footer from './components/Footer'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -26,11 +27,13 @@ function App() {
   };
   const handlePageChange = (page) => setCurrentPage(page);
   return (
-    <div>
+    <div className='container'style={{border: '1px solid black'}}>
     <Header handlePageChange = {handlePageChange} currentPage = {currentPage}/>
     <main className="mx-3">{renderPage()}</main>
+      <Footer/>
   </div>
   )
 }
+
 
 export default App
