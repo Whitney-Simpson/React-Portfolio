@@ -21,7 +21,7 @@ export default function Portfolio() {
       title: "MERN Search Engine",
       description: "",
       gitHub: "https://github.com/Whitney-Simpson/Book-Search-Engine.git",
-      websiteLink: "",
+      websiteLink: "https://book-search-engine-enqd.onrender.com/",
       image: ProjectTwoPic,
     },
     {
@@ -29,7 +29,7 @@ export default function Portfolio() {
       title: "React Portfolio",
       description: "",
       gitHub: "https://github.com/Whitney-Simpson/React-Portfolio.git",
-      websiteLink: "",
+      websiteLink: "https://celebrated-centaur-d4fc11.netlify.app/",
       image: ProjectThreePic,
     },
     {
