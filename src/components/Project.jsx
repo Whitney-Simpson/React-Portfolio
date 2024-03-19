@@ -10,8 +10,8 @@ function ProjectCard({project}) {
         <Card.Text>
         {project.description}
         </Card.Text>
-        <Button variant="primary">GitHub</Button>
-        <Button variant="primary">Website</Button>
+        <a href={project.gitHub}><Button variant="primary">GitHub</Button></a>
+        <a href={project.websiteLink}><Button variant="primary">Website</Button></a>
       </Card.Body>
     </Card>
   )
